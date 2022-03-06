@@ -1,0 +1,903 @@
+[
+	{
+		"account_identifier": {
+			"address":"terra1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3nln0mh"
+		},
+		"currency": {
+			"symbol": "uluna",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1tygms3xhhs3yv487phx3dw4a95jn7t7l8l07dr"
+		},
+		"currency": {
+			"symbol": "uluna",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu"
+		},
+		"currency": {
+			"symbol": "uluna",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu"
+		},
+		"currency": {
+			"symbol": "ukrw",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu"
+		},
+		"currency": {
+			"symbol": "uusd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "uaud",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "ucad",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "uchf",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "ucny",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "udkk",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "ueur",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "ugbp",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "uhkd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "uidr",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "uinr",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "ujpy",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "ukrw",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "uluna",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "umnt",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "umyr",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "unok",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "uphp",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "usdr",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "usek",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "usgd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "uthb",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "utwd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl"
+		},
+		"currency": {
+			"symbol": "uusd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "uaud",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "ucad",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "uchf",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "ucny",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "udkk",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "ueur",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "ugbp",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "uhkd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "uidr",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "uinr",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "ujpy",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "ukrw",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "uluna",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "umnt",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "umyr",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "usdr",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "unok",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "uphp",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "usek",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "usgd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "uthb",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "utwd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa"
+		},
+		"currency": {
+			"symbol": "uusd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "uaud",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ucad",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "uchf",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ucny",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "udkk",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ueur",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ugbp",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "uhkd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "uidr",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "uinr",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ujpy",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ukrw",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "uluna",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "umnt",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "umyr",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "unok",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "uphp",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "usdr",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "usek",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "usgd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "uthb",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "utwd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "uusd",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/0A866A7A214C42CEF84430C8A4C7210C8C7A980548A9B9BE64316D1610A87C6C",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/0E3DF4BA3B75A21FDBFC44DB1E67CFDCF6107E226CE8EC12DAFC2FA9095D0269",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/1EBD0791A5F074E852E379C5AA6B5FA1A85507597C7CD908E89BC86FE8422CE3",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/2BBF3EEB88F4BB5285A5075DE1B40EF65E5028947B7751096FFF9D05585ACFD1",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/41EA5E4F18EF20379617E66B22E0A3160AC9906F5922F376BD63B0EE9010C8A5",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/4A41A0AEB303BBBF37875C0C38BBD031B10E1283E9FEEBE247E9C763300873B4",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/4DE2B38E2E2F84CD4A8E86DE954B6093BDB3A83477271083C1D4CB0A464C62F7",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/5A87513B5064FD90D10FDAF3046E4061EF97655536269C53E3DA7A3966407095",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/5B789DD52FDCD2853922024EFE72CA00C0D4BD406B2512059AE25DAFE28E84B9",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/74968508B3C16EE293EC178D304741B5B419736E3D1F823DE0FCA39959F38F1B",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/763E49A7BBF4CDD21F3AF3BFB3566A25A846B77B6E091B75BA8A8E6B7EE34297",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/7897131F83D2F6AE3745C0CA2119684961249887363EBCC7B951241C80A565A1",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/7AE2B0FD4D084438C7910E6B294E0979A422936B65EC1F4BF67DEE4EC311741B",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/8BA41FEF071B079B7BD411151FC4F0180FF28FA2218BABF3063BBD026815A22D",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/8C585AA7388BCD1E05DD39BFC0B1DDD12024397EC68EA6B52FB38716C3A64790",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/D43715C51D81CBCDCE72F94476EE539BC511991EF8D65FC7E4EDA982EE6CF1E2",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/DB9E002E57F5ED443D21D292844F9D177927DC22E59D477B03D4979E118E80F2",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/E3459360643C2555C57C7DAB0567FA762B42D5D6D45A76615EA7D99D933AEC04",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/EB2CED20AB0466F18BE49285E56B31306D4C60438A022EA995BA65D5E3CF7E09",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/ED82AB37CB298FF94B206149F3B91379EF0509A5B3022020262B1CE2C8D22008",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/EFBAF0AE975962F586DD973A7C249D6AE559BD68687AF23FD43F71FCFC7BE913",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/F182D3E042EC4E72423C5937BF1BC36E2E88898FEC6E0019F6BAD9FB3B517A35",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/F951C98B3D08879376970DD39F74907896391810FD40AF9B2357A02E9E82BBA5",
+			"decimals": 0
+		}
+	},
+	{
+		"account_identifier": {
+			"address":"burner"
+		},
+		"currency": {
+			"symbol": "ibc/FA0006F056DB6719B8C16C551FC392B62F5729978FC0B125AC9A432DBB2AA1A5",
+			"decimals": 0
+		}
+	}
+]
+

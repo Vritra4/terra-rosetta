@@ -1,0 +1,178 @@
+{
+ "network_identifier": {
+  "blockchain": "terra",
+  "network": "columbus-5"
+ },
+ "genesis_block_identifier": {
+  "index": 4724001,
+  "hash": "AB83C8514FD6E8A4B118CF70CA8C24496F888FC1EE3830DE338512A40DAE7167"
+ },
+ "allowed_operation_types": [
+  "/cosmos.authz.v1beta1.MsgExec",
+  "/cosmos.authz.v1beta1.MsgGrant",
+  "/cosmos.authz.v1beta1.MsgRevoke",
+  "/cosmos.bank.v1beta1.MsgMultiSend",
+  "/cosmos.bank.v1beta1.MsgSend",
+  "/cosmos.crisis.v1beta1.MsgVerifyInvariant",
+  "/cosmos.distribution.v1beta1.MsgFundCommunityPool",
+  "/cosmos.distribution.v1beta1.MsgSetWithdrawAddress",
+  "/cosmos.distribution.v1beta1.MsgWithdrawDelegatorReward",
+  "/cosmos.distribution.v1beta1.MsgWithdrawValidatorCommission",
+  "/cosmos.evidence.v1beta1.MsgSubmitEvidence",
+  "/cosmos.feegrant.v1beta1.MsgGrantAllowance",
+  "/cosmos.feegrant.v1beta1.MsgRevokeAllowance",
+  "/cosmos.gov.v1beta1.MsgDeposit",
+  "/cosmos.gov.v1beta1.MsgSubmitProposal",
+  "/cosmos.gov.v1beta1.MsgVote",
+  "/cosmos.gov.v1beta1.MsgVoteWeighted",
+  "/cosmos.slashing.v1beta1.MsgUnjail",
+  "/cosmos.staking.v1beta1.MsgBeginRedelegate",
+  "/cosmos.staking.v1beta1.MsgCreateValidator",
+  "/cosmos.staking.v1beta1.MsgDelegate",
+  "/cosmos.staking.v1beta1.MsgEditValidator",
+  "/cosmos.staking.v1beta1.MsgUndelegate",
+  "/ibc.applications.transfer.v1.MsgTransfer",
+  "/ibc.core.channel.v1.MsgAcknowledgement",
+  "/ibc.core.channel.v1.MsgChannelCloseConfirm",
+  "/ibc.core.channel.v1.MsgChannelCloseInit",
+  "/ibc.core.channel.v1.MsgChannelOpenAck",
+  "/ibc.core.channel.v1.MsgChannelOpenConfirm",
+  "/ibc.core.channel.v1.MsgChannelOpenInit",
+  "/ibc.core.channel.v1.MsgChannelOpenTry",
+  "/ibc.core.channel.v1.MsgRecvPacket",
+  "/ibc.core.channel.v1.MsgTimeout",
+  "/ibc.core.channel.v1.MsgTimeoutOnClose",
+  "/ibc.core.client.v1.MsgCreateClient",
+  "/ibc.core.client.v1.MsgSubmitMisbehaviour",
+  "/ibc.core.client.v1.MsgUpdateClient",
+  "/ibc.core.client.v1.MsgUpgradeClient",
+  "/ibc.core.connection.v1.MsgConnectionOpenAck",
+  "/ibc.core.connection.v1.MsgConnectionOpenConfirm",
+  "/ibc.core.connection.v1.MsgConnectionOpenInit",
+  "/ibc.core.connection.v1.MsgConnectionOpenTry",
+  "/terra.market.v1beta1.MsgSwap",
+  "/terra.market.v1beta1.MsgSwapSend",
+  "/terra.oracle.v1beta1.MsgAggregateExchangeRatePrevote",
+  "/terra.oracle.v1beta1.MsgAggregateExchangeRateVote",
+  "/terra.oracle.v1beta1.MsgDelegateFeedConsent",
+  "/terra.wasm.v1beta1.MsgClearContractAdmin",
+  "/terra.wasm.v1beta1.MsgExecuteContract",
+  "/terra.wasm.v1beta1.MsgInstantiateContract",
+  "/terra.wasm.v1beta1.MsgMigrateCode",
+  "/terra.wasm.v1beta1.MsgMigrateContract",
+  "/terra.wasm.v1beta1.MsgStoreCode",
+  "/terra.wasm.v1beta1.MsgUpdateContractAdmin",
+  "burn",
+  "coin_received",
+  "coin_spent"
+ ],
+ "allowed_operation_statuses": [
+  {
+   "status": "Reverted",
+   "successful": false
+  },
+  {
+   "status": "Success",
+   "successful": true
+  }
+ ],
+ "allowed_errors": [
+  {
+   "code": 0,
+   "message": "unknown",
+   "description": "unknown error",
+   "retriable": false
+  },
+  {
+   "code": 1,
+   "message": "cannot query endpoint in offline mode",
+   "description": "returned when querying an online endpoint in offline mode",
+   "retriable": false
+  },
+  {
+   "code": 2,
+   "message": "network is not supported",
+   "description": "returned when querying a non supported network",
+   "retriable": false
+  },
+  {
+   "code": 3,
+   "message": "encode/decode error",
+   "description": "returned when there are errors encoding or decoding information to and from the node",
+   "retriable": true
+  },
+  {
+   "code": 4,
+   "message": "invalid operation",
+   "description": "returned when the operation is not valid",
+   "retriable": false
+  },
+  {
+   "code": 5,
+   "message": "invalid transaction",
+   "description": "returned when the transaction is invalid",
+   "retriable": false
+  },
+  {
+   "code": 7,
+   "message": "invalid address",
+   "description": "returned when the address is malformed",
+   "retriable": false
+  },
+  {
+   "code": 8,
+   "message": "invalid pubkey",
+   "description": "returned when the public key is invalid",
+   "retriable": false
+  },
+  {
+   "code": 9,
+   "message": "error interpreting data from node",
+   "description": "returned when there are issues interpreting requests or response from node",
+   "retriable": false
+  },
+  {
+   "code": 11,
+   "message": "invalid memo",
+   "description": "returned when the memo is invalid",
+   "retriable": false
+  },
+  {
+   "code": 14,
+   "message": "not implemented",
+   "description": "returned when querying an endpoint which is not implemented",
+   "retriable": false
+  },
+  {
+   "code": 15,
+   "message": "unsupported curve, expected secp256k1",
+   "description": "returned when using an unsupported crypto curve",
+   "retriable": false
+  },
+  {
+   "code": 400,
+   "message": "bad argument",
+   "description": "request is malformed",
+   "retriable": false
+  },
+  {
+   "code": 404,
+   "message": "not found",
+   "description": "returned when the node does not find what the client is asking for",
+   "retriable": true
+  },
+  {
+   "code": 500,
+   "message": "internal error",
+   "description": "returned when the node experiences internal errors",
+   "retriable": false
+  },
+  {
+   "code": 502,
+   "message": "bad gateway",
+   "description": "return when the node is unreachable",
+   "retriable": true
+  }
+ ],
+ "allowed_timestamp_start_index": 4724001
+}
