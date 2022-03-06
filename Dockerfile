@@ -54,7 +54,6 @@ RUN if [ "$NETWORK" = "testnet" ] ; then wget -O ~/genesis.json https://raw.gith
 RUN if [ "$NETWORK" = "mainnet" ] ; then wget -O ~/genesis.json https://columbus-genesis.s3.ap-northeast-1.amazonaws.com/columbus-5-genesis.json; fi
 
 RUN terrad init $MONIKER
-RUN cp -fp ~/.terra/data/priv_validator_state.json ~/priv_validator_state.json 
 
 ADD entrypoint.sh ./entrypoint.sh
 ENTRYPOINT [ "./entrypoint.sh" ]

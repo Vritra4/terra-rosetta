@@ -20,15 +20,6 @@ fi
 mv ~/.terra/config/config.toml ~/config.toml
 mv ~/.terra/config/app.toml ~/app.toml
 
-# backup priv validator state
-if [ ! -f "~/priv_validator_state.json"  ]; then
-        cp -fp $DATADIR/priv_validator_state.json ~/priv_validator_state.json
-fi
-# copy priv validator state to actual data directory
-if [ ! -f "$DATADIR/priv_validator_state.json" ]; then
-        cp -fp ~/priv_validator_state.json $DATADIR/priv_validator_state.json
-fi
-
 if [ "$MODE" = "offline" ]; then
 	export IS_OFFLINE=true
 	# make fake network
