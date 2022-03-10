@@ -23,7 +23,8 @@ RUN go env
 FROM ubuntu:latest
 
 RUN apt-get update 
-RUN apt-get install -y wget lz4 aria2 curl jq gawk
+RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get install -y wget lz4 aria2 curl jq gawk python3 python3-pip
+RUN pip install toml-cli
 
 WORKDIR /root
 

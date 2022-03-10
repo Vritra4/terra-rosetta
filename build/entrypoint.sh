@@ -40,11 +40,11 @@ sed 's/minimum-gas-prices = "0uluna"/minimum-gas-prices = "'"$MINIMUM_GAS_PRICES
 
 # Needed to use awk to replace this multiline string.
 if [ "$ENABLE_LCD" = true ] ; then
-  gawk -i inplace '/^# Enable defines if the API server should be enabled./,/^enable = false/{if (/^enable = false/) print "# Enable defines if the API server should be enabled.\nenable = true"; next} 1' ~/.terra/config/app.toml
+  toml set --toml-path ~/.terra/config/app.toml api.enable true
 fi
 
 # rosetta config updates
-gawk -i inplace '/^# Enable defines if the Rosetta API server should be enabled./,/^enable = false/{if (/^enable = false/) print "# Enable defines if the Rosetta API server should be enabled.\nenable = true"; next} 1' ~/.terra/config/app.toml
+toml set --toml-path ~/.terra/config/app.toml rosetta.enable true
 sed -i 's/^default-suggest-denom = "uatom"/default-suggest-denom = "uluna"/g' ~/.terra/config/app.toml
 sed -i 's/^blockchain = "app"/blockchain = "terra"/g' ~/.terra/config/app.toml
 sed -i "s/^network = \"network\"/network = \"${CHAINID}\"/g" ~/.terra/config/app.toml
