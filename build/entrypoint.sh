@@ -21,18 +21,12 @@ fi
 # Backup for templating
 mv ~/.terra/config/config.toml ~/config.toml
 mv ~/.terra/config/app.toml ~/app.toml
+mv ~/genesis.json ~/.terra/config/genesis.json
 
 if [ "$MODE" = "offline" ]; then
 	export IS_OFFLINE=true
-	# make fake network
-    terrad keys add key_offline --keyring-backend test
-    terrad add-genesis-account $(terrad --keyring-backend test keys show key_offline -a) 100000000uluna,1000usd
-    terrad gentx key_offline 10000000uluna --chain-id $CHAINID --keyring-backend test
-    terrad collect-gentxs
 else
 	export IS_OFFLINE=false
-	# use REAL genesis.json if it is online mode
-	mv ~/genesis.json ~/.terra/config/genesis.json
 fi
 
 
