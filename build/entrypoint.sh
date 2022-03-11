@@ -9,6 +9,8 @@ SNAPSHOT_NAME="${SNAPSHOT_NAME}"
 SNAPSHOT_BASE_URL="${SNAPSHOT_BASE_URL:-https://get.quicksync.io}"
 RETRIES="${RETRIES:-100}"
 MAX_OUTBOUND="${MAX_OUTBOUND:-40}"
+SUGGEST_GAS="${SUGGEST_GAS:-200000}"
+SUGGEST_DENOM="${SUGGEST_DENOM:-uluna}"
 
 if [ "$NETWORK" = "mainnet" ]; then
 	export CHAINID=columbus-5 
@@ -52,8 +54,10 @@ sed -i "s/^offline = false/offline = ${IS_OFFLINE}/g" ~/.terra/config/app.toml
 sed -i "s/^retries = 3/retries = ${RETRIES}/g" ~/.terra/config/app.toml
 sed -i "s/^enable-default-fee-suggest = false/enable-default-fee-suggest = true/g" ~/.terra/config/app.toml
 
-# prune nothing
-sed -i 's/^pruning = "default"/pruning = "nothing"/g' ~/.terra/config/app.toml
+if [ "$NO_PRUNE" = true ]; then
+	# prune nothing
+	sed -i 's/^pruning = "default"/pruning = "nothing"/g' ~/.terra/config/app.toml
+fi
 
 # config.toml updates
 #sed 's/moniker = "moniker"/moniker = "'"$MONIKER"'"/g' ~/config.toml > ~/.terra/config/config.toml
@@ -91,4 +95,10 @@ if [ "$CHAINID" = "columbus-5" ] && [[ ! -z "$SNAPSHOT_NAME" ]] ; then
   fi
 fi
 
-exec "$@" --db_dir $DATADIR
+if [ "$IS_OFFLINE" = true ]; then
+	exec terrad rosetta --offline --blockchain terra --network $CHAINID \
+		--enable-default-fee-suggest --suggest-gas $SUGGEST_GAS --suggest-denom $SUGGEST_DENOM \
+		--suggest-prices $MINIMUM_GAS_PRICES
+else
+	exec "$@" --db_dir $DATADIR
+fi
