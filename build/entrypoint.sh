@@ -46,7 +46,7 @@ sed -i 's/^blockchain = "app"/blockchain = "terra"/g' ~/.terra/config/app.toml
 sed -i "s/^network = \"network\"/network = \"${CHAINID}\"/g" ~/.terra/config/app.toml
 sed -i "s/^offline = false/offline = ${IS_OFFLINE}/g" ~/.terra/config/app.toml
 sed -i "s/^retries = 3/retries = ${RETRIES}/g" ~/.terra/config/app.toml
-sed -i "s/^enable-default-fee-suggest = false/enable-default-fee-suggest = true/g" ~/.terra/config/app.toml
+sed -i "s/^enable-default-suggested-fee = false/enable-default-suggested-fee = true/g" ~/.terra/config/app.toml
 
 if [ "$NO_PRUNE" = true ]; then
 	# prune nothing
@@ -91,7 +91,7 @@ fi
 
 if [ "$IS_OFFLINE" = true ]; then
 	exec terrad rosetta --offline --blockchain terra --network $CHAINID \
-		--enable-default-fee-suggest --suggest-gas $SUGGEST_GAS --suggest-denom $SUGGEST_DENOM \
+		--enable-default-suggested-fee --suggest-gas $SUGGEST_GAS --suggest-denom $SUGGEST_DENOM \
 		--suggest-prices $MINIMUM_GAS_PRICES
 else
 	exec "$@" --db_dir $DATADIR
