@@ -50,12 +50,12 @@ fi
 
 # rosetta config updates
 toml set --toml-path ~/.terra/config/app.toml rosetta.enable true
-sed -i 's/^default-suggest-denom = "uatom"/default-suggest-denom = "uluna"/g' ~/.terra/config/app.toml
+sed -i 's/^denom-to-suggest = "uatom"/denom-to-suggest = "uluna"/g' ~/.terra/config/app.toml
 sed -i 's/^blockchain = "app"/blockchain = "terra"/g' ~/.terra/config/app.toml
 sed -i "s/^network = \"network\"/network = \"${CHAINID}\"/g" ~/.terra/config/app.toml
 sed -i "s/^offline = false/offline = ${IS_OFFLINE}/g" ~/.terra/config/app.toml
 sed -i "s/^retries = 3/retries = ${RETRIES}/g" ~/.terra/config/app.toml
-sed -i "s/^enable-default-suggested-fee = false/enable-default-suggested-fee = true/g" ~/.terra/config/app.toml
+sed -i "s/^enable-fee-suggestion = false/enable-fee-suggestion = true/g" ~/.terra/config/app.toml
 
 if [ "$NO_PRUNE" = true ]; then
 	# prune nothing
@@ -100,8 +100,8 @@ fi
 
 if [ "$IS_OFFLINE" = true ]; then
 	exec terrad rosetta --offline --blockchain terra --network $CHAINID \
-		--enable-default-suggested-fee --suggest-gas $SUGGEST_GAS --suggest-denom $SUGGEST_DENOM \
-		--suggest-prices $MINIMUM_GAS_PRICES
+		--enable-fee-suggestion --gas-to-suggest $SUGGEST_GAS --denom-to-suggest $SUGGEST_DENOM \
+		--prices-to-suggest $MINIMUM_GAS_PRICES
 else
 	exec "$@" --db_dir $DATADIR
 fi
