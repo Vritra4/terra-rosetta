@@ -14,14 +14,23 @@ SUGGEST_DENOM="${SUGGEST_DENOM:-uluna}"
 
 if [ "$NETWORK" = "mainnet" ]; then
 	export CHAINID=columbus-5 
-else 
+elif [ "$NETWORK" = "testnet" ]; then
 	export CHAINID=bombay-12 
+else
+	echo invalid network type: $NETWORK
+	exit	
 fi
 
 # Backup for templating
 mv ~/.terra/config/config.toml ~/config.toml
 mv ~/.terra/config/app.toml ~/app.toml
-mv ~/genesis.json ~/.terra/config/genesis.json
+
+# copy genesis
+if [ "$NETWORK" = "mainnet" ]; then
+	cp -fp ~/mainnet.genesis.json ~/.terra/config/genesis.json
+else 
+	cp -fp ~/testnet.genesis.json ~/.terra/config/genesis.json
+fi
 
 if [ "$MODE" = "offline" ]; then
 	export IS_OFFLINE=true

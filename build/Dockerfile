@@ -51,8 +51,8 @@ EXPOSE 26657
 # rosetta
 EXPOSE 8080
 
-RUN if [ "$NETWORK" = "testnet" ] ; then wget -O ~/genesis.json https://raw.githubusercontent.com/terra-money/testnet/master/bombay-12/genesis.json; fi
-RUN if [ "$NETWORK" = "mainnet" ] ; then wget -O ~/genesis.json https://columbus-genesis.s3.ap-northeast-1.amazonaws.com/columbus-5-genesis.json; fi
+RUN wget -O ~/testnet.genesis.json https://raw.githubusercontent.com/terra-money/testnet/master/bombay-12/genesis.json
+RUN wget -O ~/mainnet.genesis.json https://columbus-genesis.s3.ap-northeast-1.amazonaws.com/columbus-5-genesis.json
 
 RUN terrad init $MONIKER
 
